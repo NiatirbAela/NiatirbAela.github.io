@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Mechanical Engineering Portfolio</title>
+  <meta name="description" content="Mechanical Engineering portfolio: design, simulation, controls, and computational projects." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="hero">
+        <div class="hero-text">
+          <h1>Your Name</h1>
+          <p class="subtitle">Mechanical Engineering • Design • Simulation • Controls • Computation</p>
+
+          <p class="summary">
+            Mechanical Engineering student building real systems across aerospace-inspired mechanisms,
+            vehicle suspension design, computational modeling, and ML-driven tools.
+            Seeking <strong>internship</strong> and <strong>full-time</strong> opportunities.
+          </p>
+
+          <div class="button-row">
+            <a class="btn primary" href="assets/Resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+            <a class="btn" href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn" href="https://github.com/YOUR-GITHUB" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn ghost" href="#contact">Contact</a>
+          </div>
+
+          <div class="meta">
+            <span>Location: City, State</span>
+            <span>•</span>
+            <span>Email: you@email.com</span>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <h2>Snapshot</h2>
+          <ul class="bullets">
+            <li><strong>Top focus:</strong> mechanical design + analysis with clear documentation</li>
+            <li><strong>Tools:</strong> SolidWorks, FEA, MATLAB/Simulink, Python, PyTorch</li>
+            <li><strong>Industries:</strong> aerospace, automotive/off-road, robotics, R&amp;D</li>
+          </ul>
+
+          <div class="tags">
+            <span class="tag">SolidWorks</span>
+            <span class="tag">FEA</span>
+            <span class="tag">Kinematics</span>
+            <span class="tag">MATLAB</span>
+            <span class="tag">Simulink</span>
+            <span class="tag">Python</span>
+            <span class="tag">PyTorch</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- ===================== SKILLS ===================== -->
+    <section class="section" id="skills">
+      <h2>Technical Skills</h2>
+
+      <div class="grid-3">
+        <div class="card">
+          <h3>CAD &amp; Design</h3>
+          <ul class="bullets">
+            <li>SolidWorks (assemblies, drawings, DFM awareness)</li>
+            <li>Mechanisms, load paths, design iteration</li>
+            <li>GD&amp;T (add if applicable)</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Analysis &amp; Simulation</h3>
+          <ul class="bullets">
+            <li>Free-body diagrams, hand calcs, assumptions</li>
+            <li>FEA interpretation (stress, deformation, SF)</li>
+            <li>Kinematics &amp; component interaction</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Computation &amp; Controls</h3>
+          <ul class="bullets">
+            <li>MATLAB &amp; Simulink (modeling, linearization)</li>
+            <li>Python (GUIs, data pipelines)</li>
+            <li>ML inference workflows (PyTorch)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section class="section" id="projects">
+      <div class="section-head">
+        <h2>Selected Projects</h2>
+        <p class="muted">Each project is formatted for fast recruiter scanning and clean PDF export.</p>
+      </div>
+
+      <!-- Project 1 -->
+      <article class="project">
+        <div class="project-top">
+          <div>
+            <h3>Airless Spring Tire System (Senior Capstone)</h3>
+            <p class="project-sub">
+              Non-pneumatic tire concept inspired by NASA Glenn-style compliant structures; designed for load support,
+              impact absorption, and traction without pneumatic failure.
+            </p>
+          </div>
+          <div class="project-links">
+            <a class="plink" href="assets/airless_tire_onepager.pdf" target="_blank" rel="noopener">One-pager</a>
+            <a class="plink" href="assets/airless_tire_gallery.pdf" target="_blank" rel="noopener">Figures</a>
+          </div>
+        </div>
+
+        <div class="project-body">
+          <div class="card">
+            <h4>Problem</h4>
+            <p>
+              Create an airless tire architecture that balances stiffness vs compliance, manages stress hotspots,
+              and remains manufacturable under real constraints.
+            </p>
+          </div>
+
+          <div class="card">
+            <h4>Tools</h4>
+            <p class="pill-row">
+              <span class="pill">SolidWorks</span>
+              <span class="pill">FEA</span>
+              <span class="pill">Hand calcs</span>
+              <span class="pill">Iteration</span>
+            </p>
+          </div>
+
+          <div class="card">
+            <h4>What I Did</h4>
+            <ul class="bullets">
+              <li>Defined load cases and boundary conditions aligned with target usage.</li>
+              <li>Iterated geometry to improve compliance while reducing peak stress regions.</li>
+              <li>Documented assumptions and sensitivity to constraints (material / thickness / pattern).</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h4>Results</h4>
+            <ul class="bullets">
+              <li>Achieved target deflection behavior under representative loading (add numbers when ready).</li>
+              <li>Identified critical stress locations to guide redesign and material selection.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-media">
+          <div class="media-box">Add: CAD render / FEA stress plot image</div>
+          <div class="media-box">Add: iteration comparison (v1 vs v2) image</div>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project">
+        <div class="project-top">
+          <div>
+            <h3>Minecraft-Themed Handwritten Digit Recognition (Python + ML)</h3>
+            <p class="project-sub">
+              Built a Python GUI that preprocesses user-loaded images and runs inference to classify digits (0–9)
+              using MNIST-style modeling.
+            </p>
+          </div>
+          <div class="project-links">
+            <a class="plink" href="https://github.com/YOUR-GITHUB/YOUR-REPO" target="_blank" rel="noopener">Code</a>
+            <a class="plink" href="assets/mnist_gui_demo.mp4" target="_blank" rel="noopener">Demo</a>
+          </div>
+        </div>
+
+        <div class="project-body">
+          <div class="card">
+            <h4>Tools</h4>
+            <p class="pill-row">
+              <span class="pill">Python</span>
+              <span class="pill">PyTorch</span>
+              <span class="pill">Tkinter</span>
+              <span class="pill">NumPy</span>
+            </p>
+          </div>
+
+          <div class="card">
+            <h4>What I Did</h4>
+            <ul class="bullets">
+              <li>Implemented image preprocessing: grayscale + resize to 28×28 + normalization.</li>
+              <li>Integrated trained model inference into a GUI workflow.</li>
+              <li>Designed clear user feedback (highlighted predicted digit blocks).</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h4>Results</h4>
+            <ul class="bullets">
+              <li>End-to-end pipeline from image input → processed tensor → prediction.</li>
+              <li>Clean UI/UX demonstrating engineering communication (not just code).</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h4>Why It Matters</h4>
+            <p>
+              Shows practical software engineering + modeling workflow — useful for controls, robotics, and test/automation roles.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-media">
+          <div class="media-box">Add: GUI screenshot</div>
+          <div class="media-box">Add: model pipeline diagram</div>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project">
+        <div class="project-top">
+          <div>
+            <h3>Interstage Latch Mechanism (Machine Design Final)</h3>
+            <p class="project-sub">
+              Designed a latch concept to retain and deploy a payload during landing conditions; emphasized safe load paths,
+              controlled release, and failure-mode awareness.
+            </p>
+          </div>
+          <div class="project-links">
+            <a class="plink" href="assets/latch_calcs.pdf" target="_blank" rel="noopener">Calcs</a>
+            <a class="plink" href="assets/latch_drawings.pdf" target="_blank" rel="noopener">Drawings</a>
+          </div>
+        </div>
+
+        <div class="project-body">
+          <div class="card">
+            <h4>Tools</h4>
+            <p class="pill-row">
+              <span class="pill">Shigley methods</span>
+              <span class="pill">FBDs</span>
+              <span class="pill">Stress / shear</span>
+              <span class="pill">Safety factor</span>
+            </p>
+          </div>
+
+          <div class="card">
+            <h4>What I Did</h4>
+            <ul class="bullets">
+              <li>Defined worst-case loading and deployment constraints (add your exact cases later).</li>
+              <li>Mapped load path through latch components and checked critical sections.</li>
+              <li>Considered release reliability and potential failure modes.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h4>Results</h4>
+            <ul class="bullets">
+              <li>Concept met target loading with margin (add numeric SF when ready).</li>
+              <li>Identified redesign opportunities to reduce stress concentrations.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h4>Key Takeaway</h4>
+            <p>Controlled release mechanisms require both strength and predictable motion under uncertainty.</p>
+          </div>
+        </div>
+
+        <div class="project-media">
+          <div class="media-box">Add: latch concept sketch / CAD</div>
+          <div class="media-box">Add: FBD + critical section callouts</div>
+        </div>
+      </article>
+
+      <!-- Project 4 -->
+      <article class="project">
+        <div class="project-top">
+          <div>
+            <h3>SAE Baja Suspension Kinematics (A-Arm &amp; Hub Interaction)</h3>
+            <p class="project-sub">
+              Evaluated A-arm geometry and hub design with attention to component interaction, packaging constraints,
+              and motion behavior through travel.
+            </p>
+          </div>
+          <div class="project-links">
+            <a class="plink" href="assets/baja_kinematics_summary.pdf" target="_blank" rel="noopener">Summary</a>
+            <a class="plink" href="assets/baja_cad_images.pdf" target="_blank" rel="noopener">CAD Images</a>
+          </div>
+        </div>
+
+        <div class="project-body">
+          <div class="card">
+            <h4>Tools</h4>
+            <p class="pill-row">
+              <span class="pill">SolidWorks</span>
+              <span class="pill">Kinematics</span>
+              <span class="pill">Vehicle dynamics</span>
+              <span class="pill">Design evaluation</span>
+            </p>
+          </div>
+
+          <div class="card">
+            <h4>What I Did</h4>
+            <ul class="bullets">
+              <li>Modeled suspension geometry and assessed behavior across travel.</li>
+              <li>Evaluated hub + suspension packaging and interaction constraints.</li>
+              <li>Flagged sensitive geometry parameters affecting motion (add specifics later).</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h4>Results</h4>
+            <ul class="bullets">
+              <li>Improved kinematic understanding and geometry robustness for off-road conditions.</li>
+              <li>Captured design decisions and constraints for team iteration.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h4>Why It Matters</h4>
+            <p>Shows systems thinking: designing parts that work together under real constraints.</p>
+          </div>
+        </div>
+
+        <div class="project-media">
+          <div class="media-box">Add: suspension geometry image</div>
+          <div class="media-box">Add: hub assembly render</div>
+        </div>
+      </article>
+
+      <!-- Project 5 -->
+      <article class="project">
+        <div class="project-top">
+          <div>
+            <h3>MATLAB/Simulink Modeling — Linearization of Motion</h3>
+            <p class="project-sub">
+              Built a dynamic model and linearized about an operating point to support analysis and controller design workflows.
+            </p>
+          </div>
+          <div class="project-links">
+            <a class="plink" href="assets/simulink_model.pdf" target="_blank" rel="noopener">Model</a>
+            <a class="plink" href="assets/linearization_notes.pdf" target="_blank" rel="noopener">Notes</a>
+          </div>
+        </div>
+
+        <div class="project-body">
+          <div class="card">
+            <h4>Tools</h4>
+            <p class="pill-row">
+              <span class="pill">MATLAB</span>
+              <span class="pill">Simulink</span>
+              <span class="pill">State-space</span>
+              <span class="pill">Linearization</span>
+            </p>
+          </div>
+
+          <div class="card">
+            <h4>What I Did</h4>
+            <ul class="bullets">
+              <li>Developed equations of motion and implemented a Simulink model.</li>
+              <li>Linearized around a chosen operating point and validated response behavior.</li>
+              <li>Prepared model outputs suitable for control analysis (add plots later).</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h4>Results</h4>
+            <ul class="bullets">
+              <li>Produced a usable linear model representation for analysis and design.</li>
+              <li>Documented assumptions and operating-region limitations.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h4>Why It Matters</h4>
+            <p>Demonstrates core controls thinking: turning physics into models you can design with.</p>
+          </div>
+        </div>
+
+        <div class="project-media">
+          <div class="media-box">Add: Simulink diagram screenshot</div>
+          <div class="media-box">Add: response plot (step / bode / etc.)</div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ===================== RESUME ===================== -->
+    <section class="section" id="resume">
+      <h2>Resume</h2>
+      <div class="card">
+        <p>
+          Download: <a href="assets/Resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+        </p>
+        <p class="muted">
+          Tip: Keep the resume to 1 page and let this portfolio carry the details (figures, calcs, and project depth).
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+      <div class="card">
+        <p><strong>Email:</strong> you@email.com</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener">linkedin.com/in/YOUR-LINKEDIN</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/YOUR-GITHUB" target="_blank" rel="noopener">github.com/YOUR-GITHUB</a></p>
+      </div>
+      <p class="footer muted">© <span id="year"></span> Your Name • Built for clean PDF export</p>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
