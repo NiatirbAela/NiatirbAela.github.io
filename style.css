@@ -158,6 +158,25 @@ h4{ margin: 0 0 6px 0; font-size: 14px; color: #eaf2ff; letter-spacing: 0.2px; }
 
 .footer{ margin-top: 16px; }
 
+/* Project images */
+.project-media figure{
+  margin: 0;
+}
+.project-media img{
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+}
+.project-media figcaption{
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+
 /* ===================== PRINT / PDF ===================== */
 @media print{
   :root{
