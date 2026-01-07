@@ -101,63 +101,125 @@
       </div>
 
       <!-- Project 1 -->
-      <article class="project">
-        <div class="project-top">
-          <div>
-            <h3>Airless Spring Tire System (Senior Capstone)</h3>
-            <p class="project-sub">
-              Non-pneumatic tire concept inspired by NASA Glenn-style compliant structures; designed for load support,
-              impact absorption, and traction without pneumatic failure.
-            </p>
-          </div>
-          <div class="project-links">
-            <a class="plink" href="assets/airless_tire_onepager.pdf" target="_blank" rel="noopener">One-pager</a>
-            <a class="plink" href="assets/airless_tire_gallery.pdf" target="_blank" rel="noopener">Figures</a>
-          </div>
-        </div>
+<article class="project">
+  <div class="project-top">
+    <div>
+      <h3>Airless Spring Tire System (Senior Capstone)</h3>
+      <p class="project-sub">
+        Designed, manufactured, and experimentally evaluated an airless spring tire inspired by limited public research
+        (NASA Glenn/Goodyear + a small number of PhD theses) for potential next-generation rover mobility.
+      </p>
+    </div>
+    <div class="project-links">
+      <!-- Optional: replace with your files later -->
+      <!-- <a class="plink" href="assets/airless_tire_onepager.pdf" target="_blank" rel="noopener">One-pager</a> -->
+    </div>
+  </div>
 
-        <div class="project-body">
-          <div class="card">
-            <h4>Problem</h4>
-            <p>
-              Create an airless tire architecture that balances stiffness vs compliance, manages stress hotspots,
-              and remains manufacturable under real constraints.
-            </p>
-          </div>
+  <div class="project-body">
+    <div class="card">
+      <h4>Context</h4>
+      <p>
+        Airless spring tire architectures are being explored for harsh, remote environments where conventional wheel/tire
+        designs can deteriorate and cause mission-limiting failures. Publicly available work is limited, making this a
+        highly experimental undergraduate build-and-test effort.
+      </p>
+    </div>
 
-          <div class="card">
-            <h4>Tools</h4>
-            <p class="pill-row">
-              <span class="pill">SolidWorks</span>
-              <span class="pill">FEA</span>
-              <span class="pill">Hand calcs</span>
-              <span class="pill">Iteration</span>
-            </p>
-          </div>
+    <div class="card">
+      <h4>My Role</h4>
+      <ul class="bullets">
+        <li>Primary liaison with faculty advisor and manufacturing technician</li>
+        <li>Led spring design calculations, material selection, and stiffness modeling</li>
+        <li>Performed FEA and evaluated stiffness + weight capacity</li>
+        <li>Co-led manufacturing and assembly with project partner</li>
+      </ul>
+      <p class="muted" style="margin-top:10px;">Team size: 2 engineers</p>
+    </div>
 
-          <div class="card">
-            <h4>What I Did</h4>
-            <ul class="bullets">
-              <li>Defined load cases and boundary conditions aligned with target usage.</li>
-              <li>Iterated geometry to improve compliance while reducing peak stress regions.</li>
-              <li>Documented assumptions and sensitivity to constraints (material / thickness / pattern).</li>
-            </ul>
-          </div>
+    <div class="card">
+      <h4>Constraints</h4>
+      <ul class="bullets">
+        <li><strong>Budget:</strong> $500 target</li>
+        <li><strong>Environment:</strong> materials suitable for harsh extraterrestrial conditions</li>
+        <li><strong>Mass:</strong> weight considered during selection and geometry design</li>
+        <li><strong>Manufacturing safety:</strong> constrained by available equipment and safe processes</li>
+        <li><strong>Performance target:</strong> 75 lb load capacity</li>
+      </ul>
+    </div>
 
-          <div class="card">
-            <h4>Results</h4>
-            <ul class="bullets">
-              <li>Achieved target deflection behavior under representative loading (add numbers when ready).</li>
-              <li>Identified critical stress locations to guide redesign and material selection.</li>
-            </ul>
-          </div>
-        </div>
+    <div class="card">
+      <h4>Tools &amp; Methods</h4>
+      <p class="pill-row">
+        <span class="pill">SolidWorks</span>
+        <span class="pill">Manufacturing drawings</span>
+        <span class="pill">FEA</span>
+        <span class="pill">Hand calcs</span>
+        <span class="pill">Excel iteration</span>
+        <span class="pill">Testing</span>
+        <span class="pill">Assembly jig</span>
+      </p>
+      <ul class="bullets">
+        <li>Test data compiled and graphed in Excel to estimate theoretical maximum deflections</li>
+      </ul>
+    </div>
+  </div>
 
-        <div class="project-media">
-          <div class="media-box">Add: CAD render / FEA stress plot image</div>
-          <div class="media-box">Add: iteration comparison (v1 vs v2) image</div>
-        </div>
-      </article>
+  <div class="project-body" style="margin-top:12px;">
+    <div class="card">
+      <h4>Engineering Work</h4>
+      <ul class="bullets">
+        <li>Developed spring-based load-bearing architecture and estimated system stiffness</li>
+        <li>Iterated materials and geometry for stiffness, durability, and manufacturability</li>
+        <li>Evaluated hub assembly load paths using FEA</li>
+        <li>Designed and fabricated a custom jig to control spring placement and alignment</li>
+        <li>Conducted load–deflection testing to validate analytical and simulated results</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h4>Results</h4>
+      <ul class="bullets">
+        <li><strong>Max supported load:</strong> ~70 lb</li>
+        <li><strong>Deflection at load:</strong> ~4 in</li>
+        <li><strong>Global stiffness:</strong> 22.6 lb/in</li>
+        <li><strong>Individual spring stiffness:</strong> 0.106 lb/in</li>
+        <li><strong>Stiffness delta:</strong> ~44% vs manufacturer spring data due to assembly geometry + interaction</li>
+        <li><strong>Cost:</strong> tire assembly under $500; including the custom jig increased total cost by ~10%</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h4>Challenge &amp; Fix</h4>
+      <p>
+        Early stiffness predictions were off due to complex geometry and spring-count estimation. Assembly methods and
+        analytical assumptions were updated mid-build to better capture system-level interaction effects.
+      </p>
+      <p class="muted" style="margin-top:10px;"><strong>Status:</strong> manufactured, tested, evaluated, completed</p>
+    </div>
+
+    <div class="card">
+      <h4>Takeaway</h4>
+      <p>
+        System-level behavior (geometry + interaction) can dominate component datasheet properties—testing + iteration
+        closed the loop between theory, simulation, and reality.
+      </p>
+    </div>
+  </div>
+
+  <div class="project-media">
+    <figure>
+      <img src="assets/Senior_Project_FEA.png" alt="FEA von Mises stress plot of airless spring tire hub assembly">
+      <figcaption>FEA of hub assembly showing stress distribution under representative loading.</figcaption>
+    </figure>
+
+    <figure>
+      <img src="assets/Senior_Project_final_product.jpg" alt="Manufactured airless spring tire fully Assembled with Spring Mesh installed">
+      <figcaption>Manufactured airless spring tire after assembly, total spring count: 214.</figcaption>
+    </figure>
+  </div>
+</article>
+
 
       <!-- Project 2 -->
       <article class="project">
